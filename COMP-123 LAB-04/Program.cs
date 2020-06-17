@@ -9,8 +9,12 @@ namespace COMP_123_LAB_04
     class Program
     {
         static void Main(string[] args)
-        {
-            Person sukh = new Person("Sukhjinder Kaur", 30);
+        {   // intantiate object 
+            Person sukh = new Person("Sukhjinder Kaur",30);
+
+            //call method with .accessor
+            sukh.SayHello();
+            Console.ReadLine();
         }
     }
 }

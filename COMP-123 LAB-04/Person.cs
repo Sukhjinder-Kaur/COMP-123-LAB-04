@@ -35,7 +35,7 @@ namespace COMP_123_LAB_04
             }
         }
         //CONSTRUCTORS
-        Person(string name, UInt16 age)
+        public Person(string name, UInt16 age)
         {
             m_name = name;
             m_age = age;
@@ -44,7 +44,7 @@ namespace COMP_123_LAB_04
         //PUBLIC METHODS
         public void SayHello()
         {
-            Console.WriteLine($"{Name} says hello");
+            Console.WriteLine($"{Name} says hello!");
         }
     }
 }
